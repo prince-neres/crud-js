@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Lista de Pessoas</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="nav">
+        <h3>Lista de Pessoas</h3>
+        <p>
+            Insira os dados abaixo para adição e atualização dos pessoas:
+        </p>
+    </div>
+
+    <section id="table">
+        <div id="input-data">
+            <input id="name" class="input-text" placeholder="Nome" type="text" required />
+            <input id="email" class="input-text" placeholder="Email" type="email" required />
+            <input id="phone" class="input-text" placeholder="Telefone" type="number" required />
+            <input id="job" class="input-text" placeholder="Profissão" type="text" required />
+            <button id="btn-add" onclick="addToTable()">Adicionar</button>
+        </div>
+        <table id="myTable">
+        </table>
+    </section>
+</body>
+
+</html>

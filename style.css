@@ -1,0 +1,72 @@
+*{
+    padding: 10px;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    outline: 0;
+    font-weight: bold;
+}
+
+body{
+    background-color: #fdffb6;
+}
+
+#input-data > input{
+    border-width: 0px 0px 2px 0px;
+    width: 130px;
+    margin-right: 10px;
+}
+
+#btn-add{
+    border: 0;
+    background-color: rgb(9, 255, 0);
+    font-size: 20;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: rgba(99, 248, 0, 0.719) 0px 7px 29px 0px;
+    color: white;
+    width: 100px;
+    cursor: pointer;
+}
+  
+table{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-left: 220px;
+}
+
+td, th{
+    text-align: center;
+    border-bottom: 2px;
+    width: 130px;
+}
+
+.remove-btn{
+    height: 35px;
+    border: 0;
+    padding: 0;
+    background-color: red;
+    width: 100px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    box-shadow: rgba(255, 0, 0, 0.815) 0px 7px 29px 0px;
+}
+
+.update-btn{
+    border: 0;
+    padding: 0;
+    background-color: rgb(255, 196, 0);
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    box-shadow: rgb(255, 212, 22) 0px 7px 29px 0px;
+}
+
+
